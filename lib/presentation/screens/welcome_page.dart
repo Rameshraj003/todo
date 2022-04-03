@@ -38,7 +38,7 @@ class WelcomePage extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                  //addlogo
+                  Image.asset('assets/ToDo_logo.png'),
                     SizedBox(
                       height: 4.h,
                     ),
@@ -53,7 +53,7 @@ class WelcomePage extends StatelessWidget {
                       height: 2.h,
                     ),
                     Text(
-                      'Welcome to the best Task manager baby !',
+                      'Welcome to the best Task manager !',
                       textAlign: TextAlign.center,
                       style: Theme.of(context).textTheme.subtitle1?.copyWith(
                             letterSpacing: 3,
@@ -61,6 +61,7 @@ class WelcomePage extends StatelessWidget {
                             wordSpacing: 2,
                           ),
                     ),
+                  
                     SizedBox(
                       height: 4.h,
                     ),
